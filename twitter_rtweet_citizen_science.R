@@ -7,7 +7,7 @@
   # - add supplementary qualitative variables to them (gender, speciality...)
   # - make some basic descriptive statistics on these variables
   # - build the network of followers/followees links within the dataset.
-# See http://citizensciences.net/2017/01/26/4-things-twitter…-citizen-science/ for the resulting analysis of the data.
+# See http://citizensciences.net/2017/01/26/4-things-twitter-tells-us-about-citizen-science/ for the resulting analysis of the data.
 
 
 ##### PREAMBLE: METHODOLOGICAL LESSONS WE LEARNT FROM WORKING WITH TWITTER 
