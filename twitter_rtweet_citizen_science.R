@@ -85,7 +85,7 @@ users <- users[, -c(19,20)] # delete url and descr_url (encoded as a list)
 write.csv(users, "../twitter/446nodes_to_code.csv", row.names = F)
 ## !!! be careful - ids should be imported as characters in open office - otherwise they are rounded with scientifi notation
 
-codes <- read.csv("~/Documents/THEMES_Citizen_Sciences/twitter/446nodes_to_code.csv", numerals = "no.loss", stringsAsFactors = F)
+codes <- read.csv("../twitter/446nodes_to_code.csv", numerals = "no.loss", stringsAsFactors = F)
 # % of individual vs. organizations
 round(prop.table(table(codes$type1))*100, 0)
 
